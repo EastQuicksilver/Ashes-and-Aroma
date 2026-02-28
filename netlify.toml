@@ -1,0 +1,9 @@
+[build]
+  publish = "./"
+  command = ""
+
+# Redirect all 404s to your custom 404 page
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404

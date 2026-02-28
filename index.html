@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Authentic Ghanaian fast food in Accra. Order jollof rice, banku, waakye, and more. Fast delivery across Greater Accra.">
+    <!-- SEO & social -->
+<meta property="og:title" content="Ashes & Aroma – Authentic Ghanaian Cultural & Fast Food">
+<meta property="og:description" content="Order jollof rice, banku, waakye & more across Accra. Authentic Ghanaian flavors delivered fresh.">
+<meta property="og:image" content="https://yourdomain.com/assets/preview.jpg">
+<meta property="og:url" content="https://yourdomain.com">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ashes & Aroma – Authentic Ghanaian Fast Food">
+<meta name="twitter:description" content="Authentic Ghanaian meals delivered fresh in Accra.">
+<meta name="twitter:image" content="https://yourdomain.com/assets/preview.jpg">
+
+<!-- Performance -->
+<meta http-equiv="Cache-Control" content="public, max-age=31536000">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<!-- Analytics (privacy-friendly) -->
+<script defer data-domain="ashesandaroma.netlify.app" src="https://plausible.io/js/script.js"></script>
+    <link rel="stylesheet" href="./css/styles.min.css">
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+    <title> taste of accra - Authentic Ghanaian Cultural & Fast Food</title>
+    
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <div class="header-content">
+            <a href="#home" class="logo">
+               <span class="taste of accra">taste of accra</span>
+            </a>
+            
+            <nav class="nav-desktop">
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <div class="cta-buttons">
+                    <a href="tel:+233244123456" class="btn btn-outline"><img src="./assets/phone-call.svg" alt="User Icon" width="24" height="24">Call Now</a>
+                    <a href="https://wa.me/233508366711" class="btn btn-whatsapp"><img src="./assets/whatsapp.svg" alt="User Icon" width="24" height="24">WhatsApp</a>
+                </div>
+            </nav>
+            
+            <button class="nav-mobile-toggle" onclick="toggleMobileMenu()" aria-label="Toggle menu">
+                ☰
+            </button>
+        </div>
+        
+        <nav class="nav-mobile" id="mobile-menu">
+            <a href="#home" onclick="toggleMobileMenu()">Home</a>
+            <a href="#menu" onclick="toggleMobileMenu()">Menu</a>
+            <a href="#about" onclick="toggleMobileMenu()">About</a>
+            <a href="#contact" onclick="toggleMobileMenu()">Contact</a>
+            <a href="tel:+233244123456" onclick="toggleMobileMenu()"><img src="./assets/phone-call.svg" alt=""> Call Now</a>
+            <a href="https://wa.me/233508366711" onclick="toggleMobileMenu()"><img src="./assets/whatsapp.svg" alt=""> WhatsApp</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Authentic Ghanaian Food, Delivered Fresh</h1>
+                <p class="tagline">
+                    From our kitchen to your table. Experience the rich flavors of Ghana with every bite.
+                </p>
+                <div class="hero-actions">
+                    <a href="#menu" class="btn btn-primary btn-large">View Menu</a>
+                    <a href="https://wa.me/233508366711?text=Hello%2C%20I%20want%20to%20place%20an%20order" class="btn btn-outline btn-large">Order Now</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1539755530862-00f623c00f52?w=800&h=600&fit=crop&q=80" 
+         alt="Authentic Ghanaian food spread at Ashes & Aroma">
+            </div>
+        </div>
+    </section>
+
+    <!-- QUICK ACTIONS -->
+    <div class="quick-actions">
+  <div class="quick-actions-content">
+    
+    <div class="quick-action-item">
+      <div class="quick-action-icon">
+        <img src="./assets/shipping-fast.svg" alt="Fast Delivery Icon">
+      </div>
+      <div class="quick-action-text">
+        <span class="quick-action-label">Fast Delivery</span>
+        <span class="quick-action-value">30-45 mins</span>
+      </div>
+    </div>
+
+    <div class="quick-action-item">
+      <div class="quick-action-icon">
+        <img src="./assets/review.svg" alt="Customer Rating Icon">
+      </div>
+      <div class="quick-action-text">
+        <span class="quick-action-label">Customer Rating</span>
+        <span class="quick-action-value">4.8/5.0</span>
+      </div>
+    </div>
+
+    <div class="quick-action-item">
+      <div class="quick-action-icon">
+        <img src="./assets/clock-three.svg" alt="Open Daily Icon">
+      </div>
+      <div class="quick-action-text">
+        <span class="quick-action-label">Open Daily</span>
+        <span class="quick-action-value">8am - 10pm</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+    <!-- DAILY SPECIALS -->
+    <section class="section specials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Today's Specials</h2>
+                <p>Limited time offers on your favorite dishes</p>
+            </div>
+            
+            <div class="specials-grid">
+                <div class="special-card">
+                    <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&h=400&fit=crop" 
+                         alt="Waakye special" class="special-card-image">
+                    <div class="special-card-content">
+                        <span class="special-badge">Today Only</span>
+                        <h3>Waakye Combo</h3>
+                        <p class="special-description">
+                            Complete waakye with spaghetti, gari, boiled egg, fish, and special shito
+                        </p>
+                        <div class="special-price">
+                            <span class="price">GH₵ 25</span>
+                            <a href="https://wa.me/233508366711?text=I%20want%20to%20order%20Waakye%20Combo" class="btn btn-primary">Order</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="special-card">
+                    <img src="https://images.unsplash.com/photo-1633945274417-62ab37efe365?w=600&h=400&fit=crop" 
+                         alt="Jollof rice with chicken" class="special-card-image">
+                    <div class="special-card-content">
+                        <span class="special-badge">Popular</span>
+                        <h3>Party Jollof + Chicken</h3>
+                        <p class="special-description">
+                            Smoky party jollof rice with grilled chicken, coleslaw, and plantain
+                        </p>
+                        <div class="special-price">
+                            <span class="price">GH₵ 30</span>
+                            <a href="https://wa.me/233508366711?text=I%20want%20to%20order%20Party%20Jollof" class="btn btn-primary">Order</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="special-card">
+                    <img src="https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=600&h=400&fit=crop" 
+                         alt="Banku and tilapia" class="special-card-image">
+                    <div class="special-card-content">
+                        <span class="special-badge">Chef's Pick</span>
+                        <h3>Banku & Fresh Tilapia</h3>
+                        <p class="special-description">
+                            Traditional banku served with grilled tilapia and hot pepper sauce
+                        </p>
+                        <div class="special-price">
+                            <span class="price">GH₵ 35</span>
+                            <a href="https://wa.me/233508366711?text=I%20want%20to%20order%20Banku%20and%20Tilapia" class="btn btn-primary">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU SECTION -->
+    <section class="section" id="menu">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Full Menu</h2>
+                <p>All dishes made fresh daily with local ingredients</p>
+            </div>
+            
+            <div class="menu-filters">
+                <button class="filter-btn active" onclick="filterMenu('all')">All</button>
+                <button class="filter-btn" onclick="filterMenu('mains')">Main Dishes</button>
+                <button class="filter-btn" onclick="filterMenu('starters')">Starters</button>
+                <button class="filter-btn" onclick="filterMenu('sides')">Sides</button>
+                <button class="filter-btn" onclick="filterMenu('drinks')">Drinks</button>
+            </div>
+            
+            <div class="menu-grid" id="menu-grid">
+                <!-- MAINS -->
+                <div class="menu-item" data-category="mains">
+                    <img src="https://images.unsplash.com/photo-1633945274405-b6c8069047c0?w=400&h=300&fit=crop" 
+                         alt="Jollof rice" class="menu-item-image">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h4>Jollof Rice</h4>
+                            <span class="menu-item-price">GH₵ 20</span>
+                        </div>
+                        <p class="menu-item-description">
+                            Classic Ghanaian jollof with choice of chicken or fish
+                        </p>
+                        <div class="menu-item-tags">
+                            <span class="tag spicy">🌶️ Spicy</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="menu-item" data-category="mains">
+                    <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400&h=300&fit=crop" 
+                         alt="Waakye" class="menu-item-image">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h4>Waakye</h4>
+                            <span class="menu-item-price">GH₵ 18</span>
+                        </div>
+                        <p class="menu-item-description">
+                            Rice and beans with spaghetti, gari, and your choice of protein
+                        </p>
+                        <div class="menu-item-tags">
+                            <span class="tag">Popular</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="menu-item" data-category="mains">
+                    <img src="https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=400&h=300&fit=crop" 
+                         alt="Banku" class="menu-item-image">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h4>Banku & Okro Stew</h4>
+                            <span class="menu-item-price">GH₵ 22</span>
+                        </div>
+                        <p class="menu-item-description">
+                            Fermented corn dough with rich okro soup and fish
+                        </p>
+                        <div class="menu-item-tags">
+                            <span class="tag">Traditional</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="menu-item" data-category="mains">
+                    <img src="https://images.unsplash.com/photo-1574484284002-952d92456975?w=400&h=300&fit=crop" 
+                         alt="Fufu" class="menu-item-image">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h4>Fufu & Light Soup</h4>
+                            <span class="menu-item-price">GH₵ 25</span>
+                        </div>
+                        <p class="menu-item-description">
+                            Pounded cassava with goat meat light soup
+                        </p>
+                        <div class="menu-item-tags">
+                            <span class="tag">Traditional</span>
+                            <span class="tag spicy">🌶️ Spicy</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- STARTERS -->
+                <div class="menu-item" data-category="starters">
+                    <img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400&h=300&fit=crop" 
+                         alt="Kelewele" class="menu-item-image">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h4>Kelewele</h4>
+                            <span class="menu-item-price">GH₵ 8</span>
+                        </div>
+                        <p class="menu-item-description">
+                            Spicy fried plantains with groundnuts
+                        </p>
+                        <div class="menu-item-tags">
+                            <span class="tag spicy">🌶️ Spicy</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="menu-item" data-category="starters">
+                    <img src="https://images.unsplash.com/photo-1623428187969-5da2dcea5ebf?w=400&h=300&fit=crop" 
+                         alt="Chichinga" class="menu-item-image">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h4>Chichinga (Kebabs)</h4>
+                            <span class="menu-item-price">GH₵ 12</span>
+                        </div>
+                        <p class="menu-item-description">
+                            Grilled beef skewers with spicy marinade (3 sticks)
+                        </p>
+                        <div class="menu-item-tags">
+                            <span class="tag">Popular</span>
+                            <span class="tag spicy">🌶️ Spicy</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- SIDES -->
+                <div class="menu-item" data-category="sides">
+                    <img src="https://images.unsplash.com/photo-1587334206713-c4c98bb0eb0e?w=400&h=300&fit=crop" 
+                         alt="Fried plantain" class="menu-item-image">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h4>Fried Plantain</h4>
+                            <span class="menu-item-price">GH₵ 5</span>
+                        </div>
+                        <p class="menu-item-description">
+                            Sweet fried ripe plantain slices
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="menu-item" data-category="sides">
+                    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop" 
+                         alt="Coleslaw" class="menu-item-image">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h4>Coleslaw</h4>
+                            <span class="menu-item-price">GH₵ 5</span>
+                        </div>
+                        <p class="menu-item-description">
+                            Fresh cabbage salad with house dressing
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- DRINKS -->
+                <div class="menu-item" data-category="drinks">
+                    <img src="https://images.unsplash.com/photo-1622597467836-f3285f2131b8?w=400&h=300&fit=crop" 
+                         alt="Sobolo" class="menu-item-image">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h4>Sobolo</h4>
+                            <span class="menu-item-price">GH₵ 6</span>
+                        </div>
+                        <p class="menu-item-description">
+                            Traditional hibiscus drink, freshly made
+                        </p>
+                        <div class="menu-item-tags">
+                            <span class="tag">Local Favorite</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="menu-item" data-category="drinks">
+                    <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400&h=300&fit=crop" 
+                         alt="Fresh juice" class="menu-item-image">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h4>Fresh Fruit Juice</h4>
+                            <span class="menu-item-price">GH₵ 8</span>
+                        </div>
+                        <p class="menu-item-description">
+                            Choice of pineapple, orange, or mixed fruit
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Bringing Authentic Ghanaian Flavors to Your Doorstep</h2>
+                    <p>
+                        Founded in 2020 in the heart of Accra, Taste of Accra was born from a simple mission: 
+                        to share the rich, authentic flavors of Ghana with our community.
+                    </p>
+                    <p>
+                        We use only the freshest local ingredients, traditional cooking methods, and recipes 
+                        passed down through generations. From our signature party jollof to perfectly grilled 
+                        tilapia, every dish is prepared with care and respect for our culinary heritage.
+                    </p>
+                    <p>
+                        Whether you're a local looking for a taste of home or a visitor exploring Ghanaian 
+                        cuisine, we welcome you to experience the warmth and flavor that defines our food culture.
+                    </p>
+                    <a href="#menu" class="btn btn-primary">Explore Our Menu</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1577303935007-0d306ee638cf?w=800&h=600&fit=crop" 
+                         alt="Chef preparing traditional Ghanaian food">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>We're here to serve you</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <img src= "assets/marker.svg"   class="iconz" alt="User Icon" width="50" height="50">
+                    <h3>Visit Us</h3>
+                    <p>
+                        Ring Road Central<br>
+                        Osu, Accra<br>
+                        Greater Accra Region
+                    </p>
+                    <a href="https://maps.google.com" target="_blank">Get Directions</a>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon"><img src="./assets/phone-call.svg" class="iconz" alt="User Icon" width="50" height="50"></div>
+                    <h3>Call Us</h3>
+                    <p>
+                        Monday - Sunday<br>
+                        8:00 AM - 10:00 PM
+                    </p>
+                    <a href="tel:+233508366711">+233 00 000 0000</a><br>
+                    <a href="tel:+233302123456">+233 30 000 0000</a>
+                </div>
+                
+                <div class="contact-card">
+                    <img src="./assets/whatsapp.svg"  class="iconz" alt="User Icon" width="50" height="50"></a>
+                    <h3>Order Online</h3>
+                    <p>
+                        Fast delivery across<br>
+                        Greater Accra
+                    </p>
+                    <a href="https://wa.me/233000000000" class="btn btn-whatsapp" style="display: inline-flex; margin-top: 0.5rem;">
+                        <img src="./assets/whatsapp.svg" alt="User Icon" width="24" height="24">Order on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Taste of Accra</h4>
+                    <p>
+                        Authentic Ghanaian fast food made fresh daily. 
+                        Bringing the taste of home to your table since 2020.
+                    </p>
+                    <div class="social-links">
+                        <a href="facebook.com" class="social-icon" aria-label="Facebook"><img src="./assets/facebook.svg" alt="User Icon" width="24" height="24"></a>
+                        <a href="tiktok.com" class="social-icon" aria-label="Tiktok"><img src="./assets/tik-tok.svg" alt="User Icon" width="24" height="24"></a>
+                        <a href="x.com" class="social-icon" aria-label="Twitter"><img src="./assets/twitter.svg" alt="User Icon" width="24" height="24"></a>
+                        
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Opening Hours</h4>
+                    <ul class="footer-links">
+                        <li>Monday - Friday: 8am - 10pm</li>
+                        <li>Saturday: 8am - 11pm</li>
+                        <li>Sunday: 9am - 10pm</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>
+                        Ring Road Central, Osu<br>
+                        Accra, Ghana<br><br>
+                        Phone: +233 00 000 0000<br>
+                        Email: info@tasteofaccra.com
+                    </p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p> &copy; <span id="year"></span> Taste of Accra. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.min.js" defer></script>
+</body>
+</html>
